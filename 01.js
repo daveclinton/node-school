@@ -3,3 +3,8 @@ function upperCaser(input) {
 }
 
 module.exports = upperCaser;
+
+// official solution
+module.exports = function (input) {
+  return input.toUpperCase();
+};
